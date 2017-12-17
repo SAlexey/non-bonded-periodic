@@ -5,7 +5,7 @@ A Python package for non-bonded interactions in periodic systems.
 https://go.gliffy.com/go/share/s10vtlu2tep99qk28xim
 
 ### Authors:
-Alexy,
+Alexey,
 Ben,
 Chris,
 Ludovica,
