@@ -1,3 +1,7 @@
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+
+
 class MCMC:
     """An class which applies actor to a System instance and updates it to the next step in MCMC."""
     pass
@@ -26,3 +30,12 @@ def propose_simulate():
 def accept_simulate():
     """The acceptance technique for simulation."""
     pass
+
+
+def show_frame(coordinates):
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
+    ax.scatter(coordinates[:, 0],
+               coordinates[:, 1],
+               coordinates[:, 2], )
+    plt.show()
